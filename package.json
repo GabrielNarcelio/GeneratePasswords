@@ -1,17 +1,17 @@
 {
-  "name": "trybe",
+  "name": "generate-passwords",
   "version": "1.0.0",
-  "description": "",
+  "description": "Gerador de senhas configurável com Vite, HTML, CSS e JavaScript.",
   "main": "index.js",
   "scripts": {
-    "dev": "vite --open"
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "clipboard-copy": "^4.0.1",
-    "nanoid": "^4.0.2",
     "vite": "^4.4.4"
   }
 }

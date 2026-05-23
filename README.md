@@ -1,29 +1,51 @@
+# Generate Passwords
 
-# Password Generate
+Projeto front-end desenvolvido com HTML, CSS e JavaScript para gerar senhas configuráveis com cópia rápida e interface responsiva.
 
-- Projeto feito utilizando JS, HTML e CSS com possiveis atualizações futuras
-## Instalação
+## Sobre
 
-
-
-Para rodar este projeto você prescisara:
-= 
-- VsCode
-- Vite
-- NodeJs
-- Nanoid 
-- Copy-to-clipboard 
-- Todos disponiveis no npmjs.com
+Este projeto saiu de uma versão bem básica e foi reorganizado para ficar mais apresentável em portfólio de estudante de ADS. A interface agora é mais semântica, responsiva e com foco em experiência de uso.
 
 ## Funcionalidades
 
-- 🤓 Preview em tempo real
-- 🤓 Designer responsivo
-- 🔒 Gera senhas fortes atraves do nanoid
+- Geração de senha com tamanho configurável
+- Seleção de maiúsculas, minúsculas, números e símbolos
+- Cópia para a área de transferência com feedback visual
+- Indicador de força com dicas para melhorar a senha
+- Persistência de preferências e última senha no navegador
+- Botão para restaurar padrões rapidamente
+- Layout responsivo com foco em apresentação
 
+## Tecnologias
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/GabrielNarcelio)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/gabrielnarcelio)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/NarcelioGabri3l)
+- HTML
+- CSS
+- JavaScript
+- Vite
+
+## Como executar
+
+1. Instale as dependências:
+
+```bash
+npm install
+```
+
+2. Rode o projeto:
+
+```bash
+npm run dev
+```
+
+## O que ainda pode evoluir
+
+- Adicionar barra de força da senha
+- Salvar preferências do usuário no `localStorage`
+- Criar testes para a função de geração
+- Publicar em um deploy gratuito para incluir no portfólio
+
+## Links
+
+- [LinkedIn](https://www.linkedin.com/gabrielnarcelio)
+- [Twitter](https://twitter.com/NarcelioGabri3l)
 
